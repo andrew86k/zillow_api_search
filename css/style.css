@@ -1,0 +1,65 @@
+/****** Main Style ******/
+
+body, input {
+	color: #333333;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #0074e4;
+}
+
+a:hover {
+    color: #4293e1;
+}
+
+/****** Header Style ******/
+
+.header {
+	background-color: #0075e4;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 5px;
+	font-size: 20px;
+}
+
+.header a:link, .header a:visited {
+    color: #ffffff;
+}
+
+.header a:hover {
+    color: #eeeeee;
+}
+
+/****** Input Style ******/
+
+#addr {
+	padding: 10px 5px;
+	width: 600px;
+	text-align: middle;
+	font-size: 16px;
+}
+
+input[type=submit] {
+	font-weight: bold;
+	min-width: 100px;
+}
+
+/****** Result Style ******/
+
+.error {
+	color: #da2a2a;
+	font-weight: bold;
+}
+
+.result {
+	font-size: 24px;	
+}
+
+.sub-result {
+	font-size: 16px;
+	padding-left: 15px;	
+}
